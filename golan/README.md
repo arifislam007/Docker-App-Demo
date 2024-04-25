@@ -1,6 +1,8 @@
  # Golan Application Dockerization Guide
 
-This guide outlines the steps for the operations team to dockerize the Golan application developed by the developer team, preparing it for deployment.
+## Scenario 
+
+Your development team has just finished crafting a GoLang application and uploaded it onto GitHub. Now, the operations team is tasked with containerizing this application using Docker for deployment purposes.
 
 ## Prerequisites
 
