@@ -2,7 +2,7 @@
 
 ## Scenario 
 
-Your development team has just finished crafting a GoLang application and uploaded it onto GitHub. Now, the operations team is tasked with containerizing this application using Docker for deployment purposes.
+Your development team has just finished developping a GoLang application and uploaded it onto GitHub. Now, the operations team is tasked with containerizing this application using Docker for deployment purposes.
 
 ## Prerequisites
 
