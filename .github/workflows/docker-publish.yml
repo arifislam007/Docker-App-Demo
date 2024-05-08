@@ -22,6 +22,5 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         context: golan
-        file: ./Dockerfile
         push: true
         tags: arifislam/golan-action:latest  # Change to your Docker Hub username/repository
