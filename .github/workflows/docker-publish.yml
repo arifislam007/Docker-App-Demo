@@ -21,7 +21,7 @@ jobs:
     - name: Build and push Docker image
       uses: docker/build-push-action@v2
       with:
-        context: .
-        file: ./golan/Dockerfile
+        context: golan
+        file: ./Dockerfile
         push: true
         tags: arifislam/golan-action:latest  # Change to your Docker Hub username/repository
