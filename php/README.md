@@ -77,10 +77,5 @@ Your PHP application should be served at this address.
 
 This project provides a basic example of how to run a PHP application with an Apache server inside a Docker container. You can customize and extend this setup according to your project needs.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 
-You can use this README file directly in your repository at [arifislam007/Docker-App-Demo](https://github.com/arifislam007/Docker-App-Demo.git).
