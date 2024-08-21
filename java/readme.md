@@ -1,6 +1,6 @@
 # Dockerized Java Application with Persistent Storage
 
-This repository contains a simple Java application, packaged using Docker, with a setup for persistent storage using Docker Compose.
+This repository contains a simple Java application packaged with Docker, featuring persistent storage.
 
 ## Table of Contents
 
@@ -22,10 +22,9 @@ This project demonstrates how to deploy a simple Java application using Docker, 
 
 ## Prerequisites
 
-Before you start, ensure you have the following installed:
+Before you start, ensure you have Docker installed:
 
 - [Docker](https://www.docker.com/)
-- [Docker Compose](https://docs.docker.com/compose/)
 
 ## Setup Instructions
 
