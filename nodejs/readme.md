@@ -1,7 +1,3 @@
-This is simple Nodejs Project to dockerize 
-
----
-
 # Simple Node.js HTTP Server with Docker
 
 This project demonstrates how to set up a basic Node.js HTTP server inside a Docker container. The server listens on port 4000 and responds with "Hello World" to incoming requests.
@@ -78,7 +74,7 @@ This will start the Node.js server inside a Docker container, mapping port 4000 
 Once the container is running, you can access the server by navigating to:
 
 ```
-http://localhost:4000
+http://Your_docker_host_ip:4000
 ```
 
 You should see the message "Hello World" displayed in your browser.
