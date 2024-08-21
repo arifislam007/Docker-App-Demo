@@ -53,8 +53,8 @@ Follow the steps below to build and run the Docker container.
 1. Clone this repository to your local machine:
 
    ```sh
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/arifislam007/Docker-App-Demo.git
+   cd Docker-App-Demo/nodejs
    ```
 
 2. Build the Docker image using the Dockerfile provided:
@@ -68,7 +68,7 @@ Follow the steps below to build and run the Docker container.
 After building the image, you can run it with the following command:
 
 ```sh
-docker run -p 4000:4000 simple-node-server
+docker run -itd --name node-app -p 4000:4000 simple-node-server
 ```
 
 This will start the Node.js server inside a Docker container, mapping port 4000 on your host to port 4000 in the container.
@@ -87,10 +87,4 @@ You should see the message "Hello World" displayed in your browser.
 
 This project serves as a simple example of how to containerize a Node.js application using Docker. Feel free to customize and extend this setup according to your needs.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
-
-Replace the placeholder `yourusername/your-repo-name` with your actual GitHub repository information before using this README.
