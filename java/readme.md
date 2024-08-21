@@ -36,12 +36,12 @@ First, clone the repository to your local machine:
 git clone https://github.com/yourusername/java-docker-persistent-storage.git
 cd java-docker-persistent-storage
 ```
-### 2. Clone the Repository
+### Build the Docker Image
 ```bash
 docker build -t java-img .
 ```
 
-### 3. Clone the Repository
+### Run the Container
 ```bash
 docker run -itd --name java-app -p 8080:8080 java-img
 ```
