@@ -46,3 +46,9 @@ docker build -t java-img .
 docker run -itd --name java-app -p 8080:8080 java-img
 ```
 
+# Accessing the Server
+Once the container is running, you can access the server by navigating to:
+
+```
+http://Your_docker_host_ip:4000
+```
