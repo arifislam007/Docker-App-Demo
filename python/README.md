@@ -94,7 +94,7 @@ This will start the Python HTTP server inside a Docker container, mapping port 8
 Once the container is running, you can access the server by navigating to:
 
 ```
-http://localhost:8080
+http://your_docker_host_IP:8080
 ```
 
 You should see the custom ASCII art and the message "Hello from Docker!" displayed in your browser.
