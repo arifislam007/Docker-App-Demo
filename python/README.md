@@ -1,5 +1,3 @@
----
-
 # Python HTTP Server with Docker
 
 This project demonstrates how to set up a basic Python HTTP server inside a Docker container. The server listens on port 8080 and responds with a custom ASCII art message.
