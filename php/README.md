@@ -1,5 +1,3 @@
----
-
 # PHP-Apache Docker Container
 
 This project demonstrates how to set up a basic PHP application running on an Apache server inside a Docker container. The container serves the application on port 80.
@@ -58,7 +56,7 @@ Follow the steps below to build and run the Docker container.
 After building the image, you can run it with the following command:
 
 ```sh
-docker run -p 80:80 php-apache-server
+docker run -p 8081:80 php-apache-server
 ```
 
 This will start the Apache server with your PHP application inside a Docker container, mapping port 80 on your host to port 80 in the container.
@@ -68,7 +66,7 @@ This will start the Apache server with your PHP application inside a Docker cont
 Once the container is running, you can access the server by navigating to:
 
 ```
-http://localhost
+http://your_docker_host_ip:8080
 ```
 
 Your PHP application should be served at this address.
