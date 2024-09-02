@@ -5,13 +5,13 @@ FROM openjdk:11-jre-slim
 WORKDIR /app
 
 # Copy the compiled Java class into the container
-COPY App.java .
+COPY app.java .
 
 # Compile the Java application
-RUN javac App.java
+RUN javac app.java
 
 # Create a directory for persistent storage
 RUN mkdir -p /data
 
 # Specify the command to run the Java application
-CMD ["java", "App"]
+CMD ["java", "app"]
